@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}.bg-light{
+    background-color: rgba(227, 192, 149, 0.61)!important;
+}
+footer{
+    margin: 100px 20px 10px 10px !important;
+}
+.foto-libro{
+    width: 100%;
+    display: flex;
+    min-width: 250px;
+}
+.fotos-libro h2{
+    text-align:  center;
+    font-size: 3rem;
+}
+.tapa{
+    width: 500px;
+    height: 350px; 
+    position: relative;  
+}
+.tapa img{
+    size: 50px;
+    border-radius: 1rem; 
+}
+.parrafos{
+    border: solid 2px #000000;
+    margin: 10px 10px 10px 10px;
+    border-radius: 2rem;
+}
+
+.tapa img:hover{
+    transform: rotate(50deg) !important;
+}
+.color-letras:hover{
+    color: hsl(308, 89%, 38%) !important;
+}
