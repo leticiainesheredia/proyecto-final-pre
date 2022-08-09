@@ -5,6 +5,11 @@
 }.bg-light{
     background-color: rgba(227, 192, 149, 0.61)!important;
 }
+/*index*/
+.vidriera img{
+   width: 400px;
+   height: 400px;
+}
 /*galeria*/
 .tapa-libros{
     height: 100%;
@@ -29,10 +34,11 @@
 
 }
 .tapa-libros div img:hover{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     border-radius: 1rem;
 }
+
 /*relatos*/
 .relatos{
     display: flex;
